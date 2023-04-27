@@ -15,7 +15,7 @@ export default function App() {
 
   useEffect(() => {
     axios
-      .get(`https://old.reddit.com/r/${subReddit}/.json?limit=30`)
+      .get(`https://old.reddit.com/r/${subReddit}/.json?limit=60`)
       .then((res) => {
         setData(res.data.data.children)
         setError('')
