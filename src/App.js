@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   const [data, setData] = useState([]);
-  const [subReddit, setSubReddit] = useState('aaronssecondapi');
+  const [subReddit, setSubReddit] = useState('aarons3rdapi');
   const [formData, setFormData] = useState('');
   const [error, setError] = useState('');
 
