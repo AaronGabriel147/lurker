@@ -58,7 +58,7 @@ export default function App() {
       {
         data.length > 2
           ?
-          <h3 id="scroll-to-top" onClick={() => setSubReddit('aaronssecondapi')}>^</h3>
+          <h3 id="scroll-to-top" onClick={() => setSubReddit('aarons3rdapi')}>^</h3>
           :
           ''
       }
